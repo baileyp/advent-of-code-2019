@@ -10,7 +10,7 @@ const input1 = [
     [[1,1,1,4,99,5,6,0,99], [30,1,1,4,2,5,6,0,99]]
 ];
 
-describe('Day 02 Module', () => {
+describe('Unit: Day 02 Module', () => {
     describe('#runProgram()', () => {
         it('should run the intcode program and return the final program state', () => {
             for (const data of input1) {

@@ -15,7 +15,7 @@ const input2 = [
     [["R98,U47,R26,D63,R33,U87,L62,D20,R33,U53,R51", "U98,R91,D20,R16,D67,R40,U7,R15,U6,R7"].join("\n"), 410],
 ];
 
-describe('Day 03 Module', () => {
+describe('Integration: Day 03 Module', () => {
     describe('#part1()', () => {
         it('should return correct answers for all sample data', () => {
             for (const data of input1) {

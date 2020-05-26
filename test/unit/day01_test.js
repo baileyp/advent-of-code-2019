@@ -16,7 +16,7 @@ const input2 = [
     [100756, 50346],
 ];
 
-describe('Day 01 Module', () => {
+describe('Unit: Day 01 Module', () => {
     describe('#fuelRequirements()', () => {
         it('should calculate fuel requirements based on mass', () => {
             for (const data of input1) {

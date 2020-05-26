@@ -10,7 +10,7 @@ const input1 = [
     [CENTER, {x: 0, y: 1}, 'D', 'down'],
 ];
 
-describe('Day 03 Module', () => {
+describe('Unit: Day 03 Module', () => {
     describe('#parseLine()', () => {
         it('should parse a line into vector objects', () => {
             assert.deepStrictEqual(solution.parseLine('R123,U789'), [

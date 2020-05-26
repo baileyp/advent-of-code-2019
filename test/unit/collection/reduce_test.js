@@ -3,7 +3,7 @@
 const assert = require('assert');
 const reduce = require('../../../lib/collection/reduce');
 
-describe('Reduce Module', () => {
+describe('Unit: Reduce Module', () => {
     describe('#sum', () => {
         it('should sum two integers', () => {
             assert.strictEqual(reduce.sum(1, 2), 3);
