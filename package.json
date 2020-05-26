@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aoc.js",
+  "keywords": [],
+  "author": "Peter Bailey",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "all": "node run_all.js",
+    "test": "mocha --recursive test/",
+    "test-unit": "mocha --recursive test/unit/",
+    "test-integration": "mocha --recursive test/integration/"
+  },
+  "devDependencies": {
+    "git-hooks": "^1.1.10",
+    "mocha": "^7.2.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
